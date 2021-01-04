@@ -8,6 +8,7 @@ body{
 }
 section{
     height: 500px;
+    padding-bottom: 100px;
 }
 
 h1{
@@ -27,7 +28,7 @@ h1{
     width: 100%;
 }
 .half-width button {
-    width: 20%;
+    width: 30%;
     height: 40px;
     padding:10px 10px;
     border-radius: 5px;
@@ -39,4 +40,47 @@ h1{
     font-family: sans-serif;
     font-size: 20px;
     color: white;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right
+    ;
+}
+.dream-area h1{
+    font-size: 40px;
+}
+.dream-area button{
+    width: 40%;
+}
+
+.experience-area{
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+
+.orange-highlight{
+    color: orange;
+}
+.single-ex{
+    box-shadow: 10px 10px 40px gray;
+    height: 400px;
+}
+#org-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, orange);
+    border-image-slice: 1;
+}
+#blue-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+    color: orange;
 }
